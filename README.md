@@ -2,6 +2,24 @@
 
 A production-ready Full Stack Web Application that allows users to register, log in, access protected routes, and manage authentication securely. Built with the MERN stack (MongoDB, Express, React, Node.js).
 
+## Live Demo & Video
+
+- **Live Demo Link:** https://github.com/user-attachments/assets/9c526a3e-272f-40c2-b509-f29c963aec70
+
+## Screenshots
+
+### 1. Sign In / Registration
+![Sign In / Registration Page](./sign-in.png)
+*The secure login and registration form with validation.*
+
+### 2. User Dashboard
+![User Dashboard](./dashboard.png)
+*Protected dashboard accessible only to authenticated users, showing profile details.*
+
+### 3. Admin / User Store Dashboard
+![Admin Dashboard](./user-stored.png)
+*Role-based Admin view allowing management and deletion of registered users.*
+
 ## Features
 
 - **User Registration & Login**: Secure authentication flow using JWT and HTTP-only cookies.
@@ -124,22 +142,3 @@ JWT_EXPIRE=30d
 ### Admin Routes (`/api/admin`)
 - `GET /users`: Get all users (Admin only)
 - `DELETE /users/:id`: Delete a user (Admin only)
-
-## Live Demo & Video
-
-- **Live Demo Link:** [Insert Live Demo Link Here]
-- **Video Walkthrough:** [Insert YouTube/Loom Video Link Here]
-
-## Screenshots
-
-### 1. Sign In / Registration
-![Sign In / Registration Page](https://via.placeholder.com/800x450.png?text=Sign+In+Page+Screenshot+Here)
-*The secure login and registration form with validation.*
-
-### 2. User Dashboard
-![User Dashboard](https://via.placeholder.com/800x450.png?text=User+Dashboard+Screenshot+Here)
-*Protected dashboard accessible only to authenticated users, showing profile details.*
-
-### 3. Admin / User Store Dashboard
-![Admin Dashboard](https://via.placeholder.com/800x450.png?text=Admin+Dashboard+Screenshot+Here)
-*Role-based Admin view allowing management and deletion of registered users.*
