@@ -1,8 +1,8 @@
 const User = require('../models/User');
 
-// @desc    Update user profile
-// @route   PUT /api/users/profile
-// @access  Private
+
+
+
 const updateUserProfile = async (req, res, next) => {
   try {
     const user = await User.findById(req.user._id);
@@ -27,9 +27,9 @@ const updateUserProfile = async (req, res, next) => {
   }
 };
 
-// @desc    Update user password
-// @route   PUT /api/users/password
-// @access  Private
+
+
+
 const updateUserPassword = async (req, res, next) => {
   try {
     const user = await User.findById(req.user._id).select('+password');

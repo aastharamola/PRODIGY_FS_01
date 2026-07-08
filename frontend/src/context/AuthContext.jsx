@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Check if user is logged in on load
+  
   useEffect(() => {
     const checkUserLoggedIn = async () => {
       try {

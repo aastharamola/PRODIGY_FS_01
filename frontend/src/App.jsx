@@ -22,13 +22,13 @@ function App() {
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />
             
-            {/* Protected Routes */}
+            {}
             <Route element={<ProtectedRoute />}>
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="profile" element={<Profile />} />
             </Route>
 
-            {/* Admin Routes */}
+            {}
             <Route element={<AdminRoute />}>
               <Route path="admin" element={<AdminDashboard />} />
             </Route>

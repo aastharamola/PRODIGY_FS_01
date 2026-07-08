@@ -1,8 +1,8 @@
 const User = require('../models/User');
 
-// @desc    Get all users
-// @route   GET /api/admin/users
-// @access  Private/Admin
+
+
+
 const getUsers = async (req, res, next) => {
   try {
     const users = await User.find({});
@@ -12,9 +12,9 @@ const getUsers = async (req, res, next) => {
   }
 };
 
-// @desc    Delete user
-// @route   DELETE /api/admin/users/:id
-// @access  Private/Admin
+
+
+
 const deleteUser = async (req, res, next) => {
   try {
     const user = await User.findById(req.params.id);
